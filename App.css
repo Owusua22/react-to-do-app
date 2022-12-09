@@ -1,0 +1,70 @@
+li{
+
+display: flex;
+margin-block: 20px;
+width: 25%;
+border-radius: 20px;
+margin-left: 38%;
+border-color: #5b6f78;
+border-style: solid;
+height: 50px;
+opacity: 50px;
+
+font-weight: bold;
+  
+
+}
+input{
+  text-align: center;
+  margin-left: 50%;
+  border-radius: 20px;
+  width: 40%;
+  height: 50px;
+  border-color: black;
+  
+}
+
+Button{
+  border-radius: 50px;
+}
+
+.container{
+  
+  
+  height: 200px;
+  background-size: 10px;
+  
+}
+img{
+
+  border-radius: 10%;
+  position: absolute;
+  margin-left: 38%;
+  animation: blinker 5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.get{
+  margin-top: 250px;
+  width: 100px;
+  height: 69px;
+  background:#acdde3;
+  width: 290px;
+  margin-left: 41%;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 280px;
+  
+  font-weight: bold;
+}
+
+
+
+*{
+  background-color:#d7adbb;
+  }
